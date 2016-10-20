@@ -5,6 +5,7 @@ metadata:
   labels:
     deployment: redis
   name: redis
+  namespace: FQ_NAMESPACE
 spec:
   replicas: 1
   selector:
